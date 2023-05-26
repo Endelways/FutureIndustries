@@ -1,0 +1,37 @@
+-- script.on_event('merge-craft', function(event)
+--     if event.selected_prototype then 
+--         if event.selected_prototype.base_type == "recipe" then
+--             merge(event, 1);
+--         end
+--     end
+-- end)
+
+-- script.on_event('merge-craft-5', function(event)
+--     if event.selected_prototype then 
+--         if event.selected_prototype.base_type == "recipe" then
+--            merge(event, 5);
+--         end
+--     end
+-- end)
+
+-- function merge(event, count)
+--     local plr = game.players[event.player_index]
+--     local recipe = event.selected_prototype.name;
+--     if(plr.crafting_queue) then
+--         local local_queue = plr.crafting_queue
+--         local saved_queue = {};
+--         local flag = true;
+--         while plr.crafting_queue do
+--             local queue_item = plr.crafting_queue[#plr.crafting_queue]
+--             if queue_item.recipe == recipe and not queue_item.prerequisite and flag then
+--                 queue_item.count = queue_item.count + count;
+--                 flag = false;
+--             end
+--             table.insert(saved_queue, queue_item)
+--             plr.cancel_crafting{index=queue_item.index, count=queue_item.count}
+--         end
+--         for i = #saved_queue,1,-1 do
+--             plr.begin_crafting{count=saved_queue[i].count, recipe=saved_queue[i].recipe, silent=true}
+--         end
+--     else plr.begin_crafting{count=1, recipe=event.selected_prototype.name, silent=true} end
+-- end
