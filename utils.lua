@@ -2,6 +2,7 @@ local util = {}
 util.mod_prefix = "fi-"
 util.sound_path = "__FutureIndustries__/sound/"
 util.fi_entities_path = "__FutureIndustries__/graphics/entity/"
+util.fi_technologies_path = "__FutureIndustries__/graphics/technologies/"
 util.fi_entities_icons_path = "__FutureIndustries__/graphics/icons/"
 util.fi_buildings_sounds_path = "__FutureIndustries__/graphics/sounds/"
 util.fi_remnants_path = "__FutureIndustries__/graphics/entity/remnants/"

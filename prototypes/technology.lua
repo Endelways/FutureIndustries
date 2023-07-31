@@ -134,7 +134,7 @@ data:extend(
       {
         type = "technology",
         name = util.mod_prefix.."radar",
-        icon_size = 64, icon_mipmaps = 4,
+        icon_size = 256, icon_mipmaps = 4,
         icon = util.fi_entities_icons_path.."technologies/radar.png",
         effects =
         {
@@ -177,14 +177,14 @@ data:extend(
       },
       {
         type = "technology",
-        name = util.mod_prefix.."steel-stone-furnace",
-        icon_size = 64, icon_mipmaps = 4,
-        icon = "__base__/graphics/icons/stone-furnace.png",
+        name = util.mod_prefix.."arc-furnace",
+        icon_size = 256, icon_mipmaps = 4,
+        icon = util.fi_technologies_path.."arc-furnace.png",
         effects =
         {
           {
             type = "unlock-recipe",
-            recipe = util.mod_prefix.."steel-stone-furnace"
+            recipe = util.mod_prefix.."arc-furnace"
           }
         },
         prerequisites = {},
@@ -246,7 +246,7 @@ data:extend(
       {
         type = "technology",
         name = util.mod_prefix.."electric-mining-drill-mk2",
-        icon_size = 64, icon_mipmaps = 4,
+        icon_size = 256, icon_mipmaps = 4,
         icon = util.fi_entities_icons_path.."technologies/electric-mining-drill-mk2.png",
         effects =
         {
@@ -290,7 +290,7 @@ data:extend(
       {
         type = "technology",
         name = util.mod_prefix.."inserters-assembling-machine",
-        icon_size = 64, icon_mipmaps = 4,
+        icon_size = 256, icon_mipmaps = 4,
         icon = util.fi_entities_icons_path.."technologies/inserters-assembling-machine.png",
         effects =
         {
@@ -312,7 +312,7 @@ data:extend(
       {
         type = "technology",
         name = util.mod_prefix.."advanced-solar-energy",
-        icon_size = 64, icon_mipmaps = 4,
+        icon_size = 256, icon_mipmaps = 4,
         icon = util.fi_entities_icons_path.."technologies/advanced-solar-panel.png",
         effects =
         {
@@ -334,7 +334,7 @@ data:extend(
       {
         type = "technology",
         name = util.mod_prefix.."loader",
-        icon_size = 64, icon_mipmaps = 4,
+        icon_size = 256, icon_mipmaps = 4,
         icon = util.fi_entities_icons_path.."technologies/loader.png",
         effects =
         {
@@ -356,7 +356,7 @@ data:extend(
       {
         type = "technology",
         name = util.mod_prefix.."loader-2",
-        icon_size = 64, icon_mipmaps = 4,
+        icon_size = 256, icon_mipmaps = 4,
         icon = util.fi_entities_icons_path.."technologies/fast-loader.png",
         effects =
         {
@@ -378,7 +378,7 @@ data:extend(
       {
         type = "technology",
         name = util.mod_prefix.."loader-3",
-        icon_size = 64, icon_mipmaps = 4,
+        icon_size = 256, icon_mipmaps = 4,
         icon = util.fi_entities_icons_path.."technologies/express-loader.png",
         effects =
         {

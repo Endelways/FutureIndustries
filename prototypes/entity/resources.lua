@@ -39,14 +39,14 @@ data:extend({
         {
           sheet =
           {
-            filename = util.fi_entities_path.."lead-ore/lead-ore.png",
+            filename = util.fi_entities_path.."ores/lead/lead-ore.png",
             priority = "extra-high",
             size = 64,
             frame_count = 8,
             variation_count = 8,
             hr_version =
             {
-              filename = util.fi_entities_path.."lead-ore/lead-ore.png",
+              filename = util.fi_entities_path.."ores/lead/lead-ore.png",
               priority = "extra-high",
               size = 128,
               frame_count = 8,
@@ -55,7 +55,7 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 36/255, g = 48/255, b = 63/255}
       },
       {
         type = "resource",
@@ -105,12 +105,12 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 229/255, g = 194/255, b = 163/255}
       },
       {
         type = "resource",
         name = util.mod_prefix.."aluminum-ore",
-        icon = util.fi_entities_icons_path.."resources/lead-ore.png",
+        icon = util.fi_entities_icons_path.."resources/aluminum-ore.png",
         icon_size = 64,
         flags = {"placeable-neutral"},
         order="a-b-e",
@@ -120,7 +120,7 @@ data:extend({
         {
           mining_particle = "iron-ore-particle",
           mining_time = 1,
-          result = util.mod_prefix.."lead-ore",
+          result = util.mod_prefix.."aluminum-ore",
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -155,12 +155,12 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 114/255, g = 25/255, b = 10/255}
       },
       {
         type = "resource",
         name = util.mod_prefix.."chrome-ore",
-        icon = util.fi_entities_icons_path.."resources/lead-ore.png",
+        icon = util.fi_entities_icons_path.."resources/chrome-ore.png",
         icon_size = 64,
         flags = {"placeable-neutral"},
         order="a-b-e",
@@ -170,7 +170,7 @@ data:extend({
         {
           mining_particle = "iron-ore-particle",
           mining_time = 1,
-          result = util.mod_prefix.."lead-ore",
+          result = util.mod_prefix.."chrome-ore",
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -205,12 +205,12 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 58/255, g = 89/255, b = 67/255}
       },
       {
         type = "resource",
         name = util.mod_prefix.."cobalt-ore",
-        icon = util.fi_entities_icons_path.."resources/lead-ore.png",
+        icon = util.fi_entities_icons_path.."resources/cobalt-ore.png",
         icon_size = 64,
         flags = {"placeable-neutral"},
         order="a-b-e",
@@ -220,7 +220,7 @@ data:extend({
         {
           mining_particle = "iron-ore-particle",
           mining_time = 1,
-          result = util.mod_prefix.."lead-ore","cobalt-ore",
+          result = util.mod_prefix.."cobalt-ore","cobalt-ore",
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -255,12 +255,12 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 70/255, g = 51/255, b = 34/255}
       },
       {
         type = "resource",
         name = util.mod_prefix.."molybdenum-ore",
-        icon = util.fi_entities_icons_path.."resources/lead-ore.png",
+        icon = util.fi_entities_icons_path.."resources/molybdenum-ore.png",
         icon_size = 64,
         flags = {"placeable-neutral"},
         order="a-b-e",
@@ -270,7 +270,7 @@ data:extend({
         {
           mining_particle = "iron-ore-particle",
           mining_time = 1,
-          result = util.mod_prefix.."lead-ore",
+          result = util.mod_prefix.."molybdenum-ore",
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -305,12 +305,12 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 165/255, g = 167/255, b = 169/255}
       },
       {
         type = "resource",
         name = util.mod_prefix.."nickel-ore",
-        icon = util.fi_entities_icons_path.."resources/lead-ore.png",
+        icon = util.fi_entities_icons_path.."resources/nickel-ore.png",
         icon_size = 64,
         flags = {"placeable-neutral"},
         order="a-b-e",
@@ -320,7 +320,7 @@ data:extend({
         {
           mining_particle = "iron-ore-particle",
           mining_time = 1,
-          result = util.mod_prefix.."lead-ore",
+          result = util.mod_prefix.."nickel-ore",
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -355,12 +355,12 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 142/255, g = 142/255, b = 119/255}
       },
       {
         type = "resource",
         name = util.mod_prefix.."tin-ore",
-        icon = util.fi_entities_icons_path.."resources/lead-ore.png",
+        icon = util.fi_entities_icons_path.."resources/tin-ore.png",
         icon_size = 64,
         flags = {"placeable-neutral"},
         order="a-b-e",
@@ -370,7 +370,7 @@ data:extend({
         {
           mining_particle = "iron-ore-particle",
           mining_time = 1,
-          result = util.mod_prefix.."lead-ore",
+          result = util.mod_prefix.."tin-ore",
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -405,12 +405,12 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 239/255, g = 239/255, b = 239/255}
       },
       {
         type = "resource",
         name = util.mod_prefix.."titanium-ore",
-        icon = util.fi_entities_icons_path.."resources/lead-ore.png",
+        icon = util.fi_entities_icons_path.."resources/titanium-ore.png",
         icon_size = 64,
         flags = {"placeable-neutral"},
         order="a-b-e",
@@ -420,7 +420,7 @@ data:extend({
         {
           mining_particle = "iron-ore-particle",
           mining_time = 1,
-          result = util.mod_prefix.."lead-ore",
+          result = util.mod_prefix.."titanium-ore",
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -455,12 +455,12 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 81/255, g = 23/255, b = 2/255}
       },
       {
         type = "resource",
         name = util.mod_prefix.."tungsten-ore",
-        icon = util.fi_entities_icons_path.."resources/lead-ore.png",
+        icon = util.fi_entities_icons_path.."resources/tungsten-ore.png",
         icon_size = 64,
         flags = {"placeable-neutral"},
         order="a-b-e",
@@ -470,7 +470,7 @@ data:extend({
         {
           mining_particle = "iron-ore-particle",
           mining_time = 1,
-          result = util.mod_prefix.."lead-ore",
+          result = util.mod_prefix.."tungsten-ore",
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -505,12 +505,12 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 128/255, g = 128/255, b = 128/255}
       },
       {
         type = "resource",
         name = util.mod_prefix.."zinc-ore",
-        icon = util.fi_entities_icons_path.."resources/lead-ore.png",
+        icon = util.fi_entities_icons_path.."resources/zinc-ore.png",
         icon_size = 64,
         flags = {"placeable-neutral"},
         order="a-b-e",
@@ -520,7 +520,7 @@ data:extend({
         {
           mining_particle = "iron-ore-particle",
           mining_time = 1,
-          result = util.mod_prefix.."lead-ore",
+          result = util.mod_prefix.."zinc-ore",
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -555,6 +555,6 @@ data:extend({
             }
           }
         },
-        map_color = {r = 198/255, g = 241/255, b = 245/255}
+        map_color = {r = 167/255, g = 165/255, b = 138/255}
       },
 })

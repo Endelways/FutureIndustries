@@ -20,7 +20,7 @@ data.raw["mining-drill"]["electric-mining-drill"].resource_searching_radius = 1.
 data.raw["mining-drill"]["electric-mining-drill"].mining_speed = 0.8;
 data.raw["electric-pole"]["small-electric-pole"].maximum_wire_distance = 3;
 data.raw["electric-pole"]["small-electric-pole"].supply_area_distance = 1.5;
-data.raw["electric-pole"]["small-electric-pole"].localised_name = "Tiny electric pole";
+-- data.raw["electric-pole"]["small-electric-pole"].localised_name = "Tiny electric pole";
 data.raw["technology"]["solar-energy"].prerequisites = {"electric-energy-distribution-1", "optics"};
 data.raw["electric-pole"]["big-electric-pole"].maximum_wire_distance = 64;
 data.raw["electric-pole"]["big-electric-pole"].supply_area_distance = 1;
@@ -41,7 +41,7 @@ data.raw["splitter"]["express-splitter"].speed = 0.06666666666666666666666666666
 
 
 data.raw["technology"]["electric-energy-distribution-1"].prerequisites = {util.mod_prefix.."advanced-electricity", "steel-processing"}
-data.raw["technology"]["steel-processing"].prerequisites = {util.mod_prefix.."steel-stone-furnace"};
+data.raw["technology"]["steel-processing"].prerequisites = {util.mod_prefix.."arc-furnace"};
 data.raw["technology"]["automation"].prerequisites = {util.mod_prefix.."inserters-assembling-machine"};
 data.raw["technology"]["automation-2"].prerequisites =  {"circuit-network"};
 data.raw["technology"]["fast-inserter"].prerequisites = {util.mod_prefix.."long-handed-inserter"};

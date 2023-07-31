@@ -13,12 +13,12 @@ data:extend({
  }, 
  {
    type = "item",
-   name = util.mod_prefix.."steel-stone-furnace",
-   icon = "__base__/graphics/icons/stone-furnace.png",
+   name = util.mod_prefix.."arc-furnace",
+   icon = util.fi_entities_icons_path.."arc-furnace.png",
    icon_size = 64, icon_mipmaps = 4,
    subgroup = "smelting-machine",
-   order = "a[stone-steel-furnace]",
-   place_result = util.mod_prefix.."steel-stone-furnace",
+   order = "a[arc-furnace]",
+   place_result = util.mod_prefix.."arc-furnace",
    stack_size = 10
 },
 {

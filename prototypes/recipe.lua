@@ -95,10 +95,10 @@ data:extend({
     },
     {
       type = "recipe",
-      name = util.mod_prefix.."steel-stone-furnace",
+      name = util.mod_prefix.."arc-furnace",
       enabled = false, 
       ingredients = {{util.mod_prefix.."lead-gear-wheel", 5}, {"iron-gear-wheel", 5}, {"stone-furnace", 1}, {"transport-belt", 4}},
-      result = util.mod_prefix.."steel-stone-furnace"
+      result = util.mod_prefix.."arc-furnace"
     },
     {
       type = "recipe",
